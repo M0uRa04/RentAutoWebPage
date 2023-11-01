@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primeira-cor:#AF212B;
+    --segunda-cor:#c00b1a;
+    --terceira-cor:#ab0814;
+    --quarta-cor:#97060d;
+    --quinta-cor:#820307;
+    --sexta-cor:#6d0000;
+    --setima-cor:#FFB6AB;
+    --oitava-cor:#D9D9D9;
+    --nona-cor:#f5f5f5;
+}
+
+/*Inicio topo*/ 
+#container-topo{
+    background-color: var(--primeira-cor);
+    width: 100%;
+    height: auto;
+}
+
+#logo{
+    text-align: center;
+}
+/*Fim topo*/ 
