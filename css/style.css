@@ -74,7 +74,89 @@ input{
     color: white;
     font-size: 1.2em;
     margin: 1% 1%;
+    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+
     
 }
   
 /*Fim topo*/ 
+/*Inicio Main*/ 
+#container-conteudo-principal{
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+}
+
+#faixa-conteudo{
+    width: 100%;
+    height: auto;
+    background-color: #97060d;
+}
+
+#titulo-faixa{
+    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    color: gold;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#paragrafo-faixa{
+    padding: 5px 0 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
+
+/*Inicio da faixa de opções*/ 
+
+#faixa-de-opcoes{
+    background-color: var(--primeira-cor);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.option{
+    background-color: var(--quinta-cor);
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    max-width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.option img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width: 768px){
+    .option{
+        max-width: 45%;
+    }
+}
+
+@media(max-width: 480px){
+    .option{
+        max-width: 100%;
+    }
+}
+
+#faixa-de-opcoes .option p{
+    color: white;
+    font-size: 1.4em;
+    margin-top: 5px;
+}
+
+#faixa-de-opcoes .option a{
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+/*Fim da faixa de opções*/ 
+
+/*Fim Main*/ 
