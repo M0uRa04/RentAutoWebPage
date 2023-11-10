@@ -91,7 +91,7 @@ input{
 #faixa-conteudo{
     width: 100%;
     height: auto;
-    background-color: #97060d;
+    background-color: var(--primeira-cor);
 }
 
 #titulo-faixa{
@@ -122,7 +122,7 @@ input{
 }
 
 .option{
-    background-color: var(--quinta-cor);
+    background-color: var(--terceira-cor);
     flex: 1;
     margin: 10px 30px;
     text-align: center;
@@ -183,3 +183,43 @@ input{
 /*Fim Main*/ 
 
 /*Inicio Footer*/ 
+
+footer{
+    background-color: var(--primeira-cor);
+    padding: 20px 0;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div-footer{
+    flex: 1;
+    margin: 10px 30px;
+    text-align: center;
+    padding: 10px;
+    max-width: 30%;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--nona-cor);
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+footer a:hover{
+    text-decoration: none;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+footer p{
+    color: var(--nona-cor);
+    font-size: 1.2em;
+    padding: 2px 0;
+}
+/*Fim Footer*/ 
